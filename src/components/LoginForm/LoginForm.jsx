@@ -47,7 +47,7 @@ const LoginForm = () => {
                     <ErrorMessage name="email" component="span" className={css.error} />
 
                     <label htmlFor={passwordId}>Password</label>
-                    <Field type="text" name="password" id={passwordId} />
+                    <Field type="password" name="password" id={passwordId} />
                     <ErrorMessage name="password" component="span" className={css.error} />
 
                     <button type="submit">Login</button>
