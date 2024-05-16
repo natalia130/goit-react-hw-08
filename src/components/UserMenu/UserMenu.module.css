@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.menu button {
+  height: 40px;
+  /* width: 200px; */
+  background-color: gainsboro;
+  border: 1px solid grey;
+  margin: 15px 10px 10px 10px;
+}
